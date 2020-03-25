@@ -21,7 +21,7 @@ def move_mesh_and_rho(nver, f, alpha, plot=False):
     ##### Initial mesh
     
     x = np.linspace(0,1,nver)
-    one = 1.5*np.ones(x.shape)
+    #one = 1.5*np.ones(x.shape)
     rho = f(x)
     
     ##### Finite Volume cells
@@ -116,7 +116,7 @@ def move_mesh_and_rho_small_steps(nver, f, alpha, nsteps, plot=False):
     ##### Initial mesh
     
     x = np.linspace(0,1,nver)
-    one = 1.5*np.ones(x.shape)
+    #one = 1.5*np.ones(x.shape)
     rho = f(x)
     
     ##### Finite Volume cells
